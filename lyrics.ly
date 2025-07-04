@@ -1,13 +1,10 @@
-verseOne = \lyricmode {
-}
-
-verseTwo = \lyricmode {
+soloLyrics = \lyricmode {
 }
 
 sopranoLyrics = \lyricmode {
 }
 
-mezzoSopranoLyrics = \lyricmode {
+mezzoLyrics = \lyricmode {
 }
 
 altoLyrics = \lyricmode {

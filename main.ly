@@ -38,11 +38,14 @@
 solo =  \relative c' {
     \clef "treble" \numericTimeSignature\time 4/4 \key bes \major
     \tempo 4=60
-    R1*40
-    r2 r4
+    \soloVerseOne
+    \soloChorusOne
     \soloVerseTwo
+    \soloChorusTwo
+    \soloIntermission
+    \soloChorusThree
     \bar "|."
-    }
+}
 
 soprano =  \relative {
     \clef "treble" \numericTimeSignature\time 4/4 \key bes \major
@@ -88,7 +91,7 @@ tenor =  \relative {
     \tenorVerseTwo
     \tenorChorusTwo
     \tenorIntermission
-    \tenorVerseThree
+    \tenorChorusThree
     \bar "|."
 }
 
@@ -100,7 +103,7 @@ bass =  \relative {
     \bassVerseTwo
     \bassChorusTwo
     \bassIntermission
-    \bassVerseThree
+    \bassChorusThree
     \bar "|."
 }
 
@@ -119,7 +122,7 @@ bass =  \relative {
                 \context Voice = "solo" {  \solo }
                 >>
             >>
-        \new Lyrics \lyricsto "solo" { \verseTwo }
+        \new Lyrics \lyricsto "solo" { \soloLyrics }
         \new StaffGroup
         <<
             \new Staff
