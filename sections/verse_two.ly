@@ -78,5 +78,24 @@ tenorVerseTwo = \relative a {
   gis? gis4.~ gis2
 }
 
-bassVerseTwo = \relative a {
+bassVerseTwo = \relative a, {
+  a8 r16 a cis8 [e] a [e a, e']~
+  e4. d8~d4. a8~
+  a8 r16 a cis8 [e] a [e a, e']~
+  e4. d8~d4 r4
+
+  a8 r16 a cis8 [e] a [e a, e']~
+  e4. d8~d4. a8~
+  a8 r16 a cis8 [e] a [e a, e']~
+  e4. d8~d4 r4
+
+  a8 r16 a cis8 [e] a [e a, e']~
+  e4. d8~d4. a8~
+  a8 r16 a cis8 [e] a [e a, e']~
+  e4. d8~d4 r4
+
+  a8 r16 a cis8 [e] a [e a, e']~
+  e4. d8~d4. a8~
+  a8 r16 a cis8 [e] a [e a, e']~
+  e4. d8~d4 r4
 }

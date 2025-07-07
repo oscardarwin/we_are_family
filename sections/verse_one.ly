@@ -1,4 +1,23 @@
-soloVerseOne = \relative a {
+soloVerseOne = \relative a' {
+  r2 r8 a [g a]~
+  a [g e g]~g [e d e]
+  cis4 r4 r8 b [a a]~
+  a8 b'4 a8 fis2
+
+  r2 r8 a [g a]~
+  a [g e g]~g [e d e]
+  cis4 r4 r8 a [a a]~
+  a8 b'4 a8 fis2
+
+  r2 a8 [a g a]
+  fis4 r4 e8 [d e cis]~
+  cis2 r8 c [d es]
+  d [d] r4 r2
+
+  r8 c' [b a] b [a a fis]
+  a4 r2.
+  r8 a8 [a fis] a [a b c]
+  b b4. \grace { c16 [b]} a8 fis r4 
 }
 
 sopranoVerseOne = \relative a' {
@@ -90,5 +109,24 @@ tenorVerseOne = \relative a {
   b b4 c16 [b] a8 [fis] r4
 }
 
-bassVerseOne = \relative a {
+bassVerseOne = \relative a, {
+  a8 r16 a cis8 [e] a [e a, e']~
+  e4. d8~d4. a8~
+  a8 r16 a cis8 [e] a [e a, e']~
+  e4. d8~d4 r4
+
+  a8 r16 a cis8 [e] a [e a, e']~
+  e4. d8~d4. a8~
+  a8 r16 a cis8 [e] a [e a, e']~
+  e4. d8~d4 r4
+
+  a8 r16 a cis8 [e] a [e a, e']~
+  e4. d8~d4. a8~
+  a8 r16 a cis8 [e] a [e a, e']~
+  e4. d8~d4 r4
+
+  a8 r16 a cis8 [e] a [e a, e']~
+  e4. d8~d4. a8~
+  a8 r16 a cis8 [e] a [e a, e']~
+  e4. d8~d4 r4
 }

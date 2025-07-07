@@ -49,5 +49,14 @@ tenorChorusTwo = \relative a {
   c8 r8 r2.
 }
 
-bassChorusTwo = \relative a {
+bassChorusTwo = \relative a, {
+  a2 a'8 a4 g8~
+  g4 r g8 [g g, a]
+  d4 r d8 d4 g,8~
+  g4 r g8 [fis g a]~
+
+  a2 a'8 a4 g8~
+  g4 r g8 [g g, a]
+  d4 r d8 d4 g,8~
+  g4 r2.
 }

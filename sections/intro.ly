@@ -56,18 +56,18 @@ altoIntro = \relative a {
 }
 
 tenorIntro = \relative a {
-  r1
-  r
-  r
-  r
+  R1*4
+
   a2 fis'8 [e cis b]~
   b2 c8 b4 a8~
   a2. r4
   a4. g8~g8 a4 r8
+
   a2 fis'8 [e cis b]~
   b2 c8 b4 a8~
   a2. r4
   a4. g8~g8 a4 r8
+
   a2 fis'8 [e cis b]~
   b2 c8 b4 a8~
   a2. r4
@@ -75,4 +75,16 @@ tenorIntro = \relative a {
 }
 
 bassIntro = \relative a {
+  R1*7
+  r4. g8~g [e d c]
+
+  a2 a'8 a4 g8~
+  g4 r g8 [g g, a]
+  d4 r d8 d4 g,8~
+  g4 r g8 [fis g a]~
+
+  a2 a'8 a4 g8~
+  g4 r g8 [g g, a]
+  d4 r d8 d4 g,8~
+  g4 r g8 [fis g a]~
 }
