@@ -38,7 +38,7 @@
 solo =  \relative c' {
     \clef "treble" \numericTimeSignature\time 4/4 \key a \major
     \tempo 4=60
-    R1*16
+    \backingSoloCIntro
     \soloVerseOne
     \soloChorusOne
     \soloVerseTwo
@@ -47,6 +47,33 @@ solo =  \relative c' {
     \soloChorusThree
     \bar "|."
 }
+
+backingSoloA = \relative c' {
+    \clef "treble" \numericTimeSignature\time 4/4 \key a \major \voiceTwo
+    \backingSoloAIntro
+    R1*15
+    \backingSoloAChorusOne
+    R1*16
+    R1*8
+    \backingSoloAIntermission
+    \backingSoloAChorusThree
+    \bar "|."
+}
+
+backingSoloB = \relative c' {
+    \clef "treble" \numericTimeSignature\time 4/4 \key a \major \voiceOne
+    \backingSoloBIntro
+    R1*15
+    R1*6
+    \hideNotes r1
+    r1
+    \unHideNotes
+    R1*16
+    R1*8
+    \backingSoloBIntermission
+    \backingSoloBChorusThree
+    \bar "|."
+} 
 
 soprano =  \relative {
     \clef "treble" \numericTimeSignature\time 4/4 \key a \major
@@ -124,6 +151,19 @@ bass =  \relative {
                 >>
             >>
         \new Lyrics \lyricsto "solo" { \soloLyrics }
+        \new Staff \with { \consists Merge_rests_engraver }
+        <<
+            \set Staff.instrumentName = "Backing Solo"
+            \set Staff.shortInstrumentName = "B. Solo"
+            \set Staff.midiInstrument = "voice aahs"
+            
+            \context Staff << 
+                \mergeDifferentlyDottedOn\mergeDifferentlyHeadedOn
+              \context Voice = "backingSoloA" { \backingSoloA }
+            \context Voice = "backingSoloB" { \backingSoloB }
+                >>
+            >>
+        \new Lyrics \lyricsto "backingSoloA" { \backingSoloALyrics }
         \new StaffGroup
         <<
             \new Staff

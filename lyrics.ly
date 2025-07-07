@@ -1,6 +1,12 @@
 soloLyrics = \lyricmode {
 }
 
+backingSoloALyrics = \lyricmode {
+}
+
+backingSoloBLyrics = \lyricmode {
+}
+
 sopranoLyrics = \lyricmode {
 }
 

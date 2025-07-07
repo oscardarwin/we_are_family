@@ -1,3 +1,26 @@
+backingSoloAIntro = \relative a' {
+  R1*13
+  r8 g16 [gis] a4~a4. d8~
+  d1
+  c4 b b d8 [cis]~
+  cis8 r8 r2.
+}
+
+backingSoloBIntro = \relative a' {
+  R1*13
+  r4. d16 [dis] e4. fis8~
+  fis1
+  e4 d d d8 [e]~
+  e8 r8 r2.
+}
+
+backingSoloCIntro = \relative a' {
+  R1*13
+  r2 r8 a16 [g] a8 a8~
+  a1
+  a4 g g g8 [a8]~
+}
+
 sopranoIntro = \relative a' {
   r8 a8 a16 [a8 a16] a8 [a8] r4 
   r8 a8 a16 [a8 a16] a8 [a8] r4 

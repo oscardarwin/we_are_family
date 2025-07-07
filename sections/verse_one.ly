@@ -1,5 +1,5 @@
 soloVerseOne = \relative a' {
-  r2 r8 a [g a]~
+  a8 r8 r4 r8 a [g a]~
   a [g e g]~g [e d e]
   cis4 r4 r8 b [a a]~
   a8 b'4 a8 fis2
@@ -33,7 +33,7 @@ sopranoVerseOne = \relative a' {
 
   r4 c'8 r8 r8 e,4 g8~
   g4. fis8~fis4. e8~
-  e2 r8 c [d es]~
+  e2 r8 c [d es]
   d8 [d] r4 r4. a'8~
  
   a2~a4. g8~
@@ -55,7 +55,7 @@ mezzoVerseOne = \relative a' {
 
   r4 a'8 r8 r8 cis,4 d8~
   d4. d8~d4. cis8~
-  cis2 r8 c [d es]~ 
+  cis2 r8 c [d es]
   d8 [d] r4 r4. e8~
 
   e2~e4. d8~

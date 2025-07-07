@@ -1,4 +1,43 @@
-soloIntermission = \relative a {
+soloIntermission = \relative a' {
+  R1*11
+  r4 c2.~
+
+  c2 r2
+  R1*5
+  e4. g8~g4 a4-\bendAfter #-8
+  R1
+}
+
+backingSoloAIntermission = \relative a {
+  R1*4
+
+  a2 fis'8 [e cis b]~
+  b2 c8 b4 a8~
+  a1
+  a1
+
+  R1*2
+  r2. r8 a8~
+  a [b c d] e [g a a]
+
+  R1*8
+}
+
+backingSoloBIntermission = \relative a {
+  R1*4
+
+  a2 fis'8 e4.~
+  e2 e8 e4 d8~
+  d1
+  c1
+
+  R1*2
+  \harmonicsOn
+  r8 e'8. d8. c8. a8. r8
+  r8 d8. c8. a8. c8. a8
+  \harmonicsOff
+
+  R1*8
 }
 
 sopranoIntermission = \relative a' {
@@ -94,7 +133,7 @@ bassIntermission = \relative a,, {
   a,1~
   a~
   a~
-  a4 r8 a'8~a [g d c]
+  a4 r8 g'8~g [e d c]
 
   a2 a'8 a4 g8~
   g4 r g8 [g g, a]

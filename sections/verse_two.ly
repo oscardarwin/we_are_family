@@ -1,4 +1,24 @@
-soloVerseTwo = \relative a {
+soloVerseTwo = \relative a' {
+  a8 [a g e] g [c, d es]
+  d d4. e8 [d e c](
+  cis?4) r r8 b [a a]~
+  a b'4 a8 fis4 r4
+
+  r2 a8 [a fis a]
+  r2 r8 a [ a fis]
+  a8 r4. r8 c, [d es]
+  \override Score.SpacingSpanner.shortest-duration-space = #4.0
+  d d4.~d4-\bendAfter #4 r4
+  
+  r8 a4 g8 a [a g c(]
+  a) r4. c8 [b a a]
+  fis4 r r8 a [b c]
+  b b4 \grace { c16 [b] } a8~a4 r4
+
+  r8 a [a g] a [a b c]
+  b [b] r4 a8 [a g a]~
+  a a [fis] r8 a [a b c]
+  b b4. \grace {c16 [b]} a8 [g] a4
 }
 
 sopranoVerseTwo = \relative a' {
