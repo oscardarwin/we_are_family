@@ -38,6 +38,7 @@
 solo =  \relative c' {
     \clef "treble" \numericTimeSignature\time 4/4 \key a \major
     \tempo 4=60
+    R1*16
     \soloVerseOne
     \soloChorusOne
     \soloVerseTwo
