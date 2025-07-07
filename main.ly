@@ -36,7 +36,7 @@
 \include "lyrics.ly"
 
 solo =  \relative c' {
-    \clef "treble" \numericTimeSignature\time 4/4 \key bes \major
+    \clef "treble" \numericTimeSignature\time 4/4 \key a \major
     \tempo 4=60
     \soloVerseOne
     \soloChorusOne
@@ -48,7 +48,7 @@ solo =  \relative c' {
 }
 
 soprano =  \relative {
-    \clef "treble" \numericTimeSignature\time 4/4 \key bes \major
+    \clef "treble" \numericTimeSignature\time 4/4 \key a \major
     \sopranoIntro
     \sopranoVerseOne
     \sopranoChorusOne
@@ -60,7 +60,7 @@ soprano =  \relative {
 }
 
 mezzo =  \relative {
-    \clef "treble" \numericTimeSignature\time 4/4 \key bes \major
+    \clef "treble" \numericTimeSignature\time 4/4 \key a \major
     \mezzoIntro
     \mezzoVerseOne
     \mezzoChorusOne
@@ -72,7 +72,7 @@ mezzo =  \relative {
 }
 
 alto =  \relative {
-    \clef "treble" \numericTimeSignature\time 4/4 \key bes \major
+    \clef "treble" \numericTimeSignature\time 4/4 \key a \major
     \altoIntro
     \altoVerseOne
     \altoChorusOne
@@ -84,7 +84,7 @@ alto =  \relative {
 }
 
 tenor =  \relative {
-    \clef "treble_8" \numericTimeSignature\time 4/4 \key bes \major
+    \clef "treble_8" \numericTimeSignature\time 4/4 \key a \major
     \tenorIntro
     \tenorVerseOne
     \tenorChorusOne
@@ -96,7 +96,7 @@ tenor =  \relative {
 }
 
 bass =  \relative {
-    \clef "bass" \numericTimeSignature\time 4/4 \key bes \major
+    \clef "bass" \numericTimeSignature\time 4/4 \key a \major
     \bassIntro
     \bassVerseOne
     \bassChorusOne
