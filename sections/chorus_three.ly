@@ -21,7 +21,7 @@ soloChorusThree = \relative a' {
   R1
   r2 r8 c'4 a8~
   a g r4 r2
-  R1*5
+  R1*4
 }
 
 backingSoloAChorusThree = \relative a' {
@@ -39,7 +39,7 @@ backingSoloAChorusThree = \relative a' {
   r4 r8 r8 r2
   r1
   \unHideNotes
-  R1*3
+  R1*2
 }
 backingSoloBChorusThree = \relative a' {
   a4 a a a8 [b]~
@@ -56,7 +56,7 @@ backingSoloBChorusThree = \relative a' {
   r4 r8 e, d [c c a']~
   a1
 
-  R1*3
+  R1*2
 }
 
 sopranoChorusThree = \relative a' {
@@ -97,7 +97,6 @@ mezzoChorusThree = \relative a' {
   a4 g g g8 [a8]
   R1
   g8 [g g g] g [e g a]
-  R1
 }
 
 altoChorusThree = \relative a {
@@ -118,7 +117,6 @@ altoChorusThree = \relative a {
   e4 e d d8 [b8]
   R1
   d8 [d d e] fis? [e d f]
-  R1
 }
 
 tenorChorusThree = \relative a {
@@ -139,7 +137,6 @@ tenorChorusThree = \relative a {
   cis?4 cis a cis8 [d8]
   R1
   d8 [d cis b] a [a b c]
-  R1
 }
 
 bassChorusThree = \relative a {
@@ -159,5 +156,5 @@ bassChorusThree = \relative a {
   g4 r g8 [fis g a]~
 
   a8 r8 r2.
-  R1*3
+  R1*2
 }
