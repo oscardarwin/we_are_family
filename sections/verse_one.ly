@@ -1,5 +1,5 @@
 soloVerseOne = \relative a' {
-  r2 r8 a [g a]~
+  r2 r8  ^\markup { \bold "CONNIE" } a [g a]~
   a [g e g]~g [e d e]
   cis4 r4 r8 b [a a]~
   a8 b'4 a8( fis2)

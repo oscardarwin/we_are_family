@@ -11,7 +11,7 @@ soloChorusOne = \relative a' {
 
 backingSoloAChorusOne = \relative a' {
   R1*6
-  g8 [g g g] g [e g e']~
+  g8 ^\markup { \bold "ALICE" } [g g g] g [e g e']~
   e2. -\bendAfter #-4.0 r4
 }
 

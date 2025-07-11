@@ -1,10 +1,10 @@
 soloChorusThree = \relative a' {
   cis4 cis a cis8 [d]~
   d2.~d8 r8
-  r2. r8 c8~
+  r2. r8 ^\markup { \bold "CONNIE" } c8~
   c [c c a] a( [g]) r4
   R1
-  r2 r8 a16 [g] a8 a8~
+  r2_\markup { \bold "ATHENA" } r8 a16 [g] a8 a8~
   a2.~a8 <<
       {
         \voiceOne
@@ -12,27 +12,28 @@ soloChorusThree = \relative a' {
       }
       \new Voice {
         \voiceTwo
-        a
+        a^\markup { \bold "CONNIE" }
       }
     >>
     \oneVoice
 
   r a [fis a] a [fis] r4
-  R1
+R1^\markup { \bold "repeat last four" } ^\markup { \bold "bars with audience" }
   r2 r8 c'4 a8~
   a( g) r4 r2
   R1*4
 }
 
 backingSoloAChorusThree = \relative a' {
+  ^\markup { \hspace #-14 \bold "CONNIE" }
   a4 a g g8 [g]~
   g2.~g8 r8
   R1*3
-  r8 g,16 [gis] a4~a4. d8~
+  r8_\markup { \hspace #-3 \bold "GLO" } g,16 [gis] a4~a4. d8~
   d2.~d8 f8
   
   R1
-  r8 c' [c a] c [a a c]
+  r8 ^\markup { \hspace #-3 \bold "MODGE" }c' [c a] c [a a c]
   b [b] r4 r2
   R1
   
@@ -44,10 +45,11 @@ backingSoloAChorusThree = \relative a' {
 
 }
 backingSoloBChorusThree = \relative a' {
+  _\markup { \hspace #-14 \bold "MODGE" }
   a4 a a a8 [b]~
   b2.~b8 r8
   R1*3
-  r4. d,16 [dis] e4. fis8~
+  r4.^\markup { \hspace #-3 \bold "NELL" } d,16 [dis] e4. fis8~
   fis2.~fis8 a8
 
   R1

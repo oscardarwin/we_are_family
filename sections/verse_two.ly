@@ -1,5 +1,5 @@
 soloVerseTwo = \relative a' {
-  a8 [a g e] g [c, d es]
+  a8^\markup { \bold "MODGE" } [a g e] g [c, d es]
   d d4. e8 [d e c](
   cis?4) r r8 b [a a]~
   a b'4 a8( fis4) r4
