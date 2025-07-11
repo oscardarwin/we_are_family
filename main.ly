@@ -3,7 +3,8 @@
 
 \header {
     title =  "We Are Family"
-    composer =  "Oscar Darwin"
+    composer =  "Sister Sledge"
+    arranger = "arr. Oscar Darwin"
 }
 
 #(set-global-staff-size 19.997485714285716)
@@ -36,6 +37,7 @@
 \include "lyrics.ly"
 
 solo =  \relative c' {
+    \set ignoreMelismata = ##t
     \clef "treble" \numericTimeSignature\time 4/4 \key a \major
     \tempo 4=60
     \backingSoloCIntro
@@ -51,7 +53,7 @@ solo =  \relative c' {
 backingSoloA = \relative c' {
     \clef "treble" \numericTimeSignature\time 4/4 \key a \major \voiceTwo
     \backingSoloAIntro
-    R1*15
+    R1*16
     \backingSoloAChorusOne
     R1*16
     R1*8
@@ -63,7 +65,7 @@ backingSoloA = \relative c' {
 backingSoloB = \relative c' {
     \clef "treble" \numericTimeSignature\time 4/4 \key a \major \voiceOne
     \backingSoloBIntro
-    R1*15
+    R1*16
     R1*6
     \hideNotes r1
     r1
@@ -150,7 +152,10 @@ bass =  \relative {
                 \context Voice = "solo" {  \solo }
                 >>
             >>
-        \new Lyrics \lyricsto "solo" { \soloLyrics }
+        \new Lyrics \lyricsto "solo" { 
+          \set ignoreMelismata = ##t
+          \soloLyrics 
+        }
         \new Staff \with { \consists Merge_rests_engraver }
         <<
             \set Staff.instrumentName = "Backing Solo"
