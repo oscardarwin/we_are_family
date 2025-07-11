@@ -1,8 +1,8 @@
 soloChorusTwo = \relative a' {
   r2. r8 b8~
-  b8 b4 c8 c [a a g]
+  b8 b4 c8 c [a a( g)]
   R1
-  r4. e8 d [c c a']~
+  r4. e8 d( [c) c a']~
   
   a2 r4. a8~
   a [a fis a] a fis4.

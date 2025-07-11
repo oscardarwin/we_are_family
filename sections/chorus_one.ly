@@ -1,10 +1,10 @@
 soloChorusOne = \relative a' {
   R1
-  r8 g [g g] g [a fis e]
-  r2. r8 c'8
-  b [b] r c b [b] r4
+  r8 g [g g] g [a fis( e)]
+  r2. r8 c'8(
+  b) [b] r c( b) [b] r4
   R1
-  r8 c [c a] a [g] r4
+  r8 c [c a] a( [g]) r4
   g8 [g g g] g [e g a]
   R1
 }

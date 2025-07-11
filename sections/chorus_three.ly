@@ -2,7 +2,7 @@ soloChorusThree = \relative a' {
   cis4 cis a cis8 [d]~
   d2.~d8 r8
   r2. r8 c8~
-  c [c c a] a [g] r4
+  c [c c a] a( [g]) r4
   R1
   r2 r8 a16 [g] a8 a8~
   a2.~a8 <<
@@ -20,7 +20,7 @@ soloChorusThree = \relative a' {
   r a [fis a] a [fis] r4
   R1
   r2 r8 c'4 a8~
-  a g r4 r2
+  a( g) r4 r2
   R1*4
 }
 
@@ -30,16 +30,18 @@ backingSoloAChorusThree = \relative a' {
   R1*3
   r8 g,16 [gis] a4~a4. d8~
   d2.~d8 f8
+  
+  R1
+  r8 c' [c a] c [a a c]
+  b [b] r4 r2
+  R1
+  
+  \stemUp
+  r4 r8 e, d( [c) c a']~
+  a1
 
-  R1
-  \hideNotes
-  r8 r8 r2.
-  r4 r4 r2
-  R1
-  r4 r8 r8 r2
-  r1
-  \unHideNotes
   R1*2
+
 }
 backingSoloBChorusThree = \relative a' {
   a4 a a a8 [b]~
@@ -49,13 +51,13 @@ backingSoloBChorusThree = \relative a' {
   fis2.~fis8 a8
 
   R1
-  r8 c [c a] c [a a c]
-  b [b] r4 r2
+  \hideNotes
+  r8 r8 r2.
+  r4 r4 r2
   R1
-
-  r4 r8 e, d [c c a']~
-  a1
-
+  r4 r8 r8 r2
+  r1
+  \unHideNotes
   R1*2
 }
 

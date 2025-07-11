@@ -2,12 +2,12 @@ soloVerseOne = \relative a' {
   r2 r8 a [g a]~
   a [g e g]~g [e d e]
   cis4 r4 r8 b [a a]~
-  a8 b'4 a8 fis2
+  a8 b'4 a8( fis2)
 
   r2 r8 a [g a]~
   a [g e g]~g [e d e]
   cis4 r4 r8 a [a a]~
-  a8 b'4 a8 fis2
+  a8 b'4 a8( fis2)
 
   r2 a8 [a g a]
   fis4 r4 e8 [d e cis]~
@@ -64,7 +64,7 @@ mezzoVerseOne = \relative a' {
   g4. a8~a4 r4
 }
 
-altoVerseOne = \relative a' {
+altoVerseOne = \relative a {
   R1
   R1
   R
