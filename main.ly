@@ -156,6 +156,10 @@ bass =  \relative {
           \set ignoreMelismata = ##t
           \soloLyrics 
         }
+
+        \new Lyrics = "backingSoloB" \with { 
+          \override VerticalAxisGroup.staff-affinity = #DOWN 
+        } 
         \new Staff \with { \consists Merge_rests_engraver }
         <<
             \set Staff.instrumentName = "Backing Solo"
@@ -168,7 +172,14 @@ bass =  \relative {
             \context Voice = "backingSoloB" { \backingSoloB }
                 >>
             >>
-        \new Lyrics \lyricsto "backingSoloA" { \backingSoloALyrics }
+        \context Lyrics = "backingSoloB" {\lyricsto "backingSoloB" { 
+          \set ignoreMelismata = ##t
+          \backingSoloBLyrics 
+        }}
+        \new Lyrics \lyricsto "backingSoloA" { 
+          \set ignoreMelismata = ##t
+          \backingSoloALyrics
+        }
         \new StaffGroup
         <<
             \new Staff
@@ -182,7 +193,7 @@ bass =  \relative {
                     \context Voice = "soprano" {  \soprano }
                     >>
                 >>
-            \new Lyrics \lyricsto "soprano" { \sopranoLyrics }
+            \new Lyrics \lyricsto "soprano" {\set ignoreMelismata = ##t \sopranoLyrics }
             \new Staff
             <<
                 \set Staff.instrumentName = "Mezzo-soprano"
@@ -194,7 +205,7 @@ bass =  \relative {
                     \context Voice = "mezzo" {  \mezzo }
                     >>
                 >>
-            \new Lyrics \lyricsto "mezzo" { \mezzoLyrics }
+            \new Lyrics \lyricsto "mezzo" {\set ignoreMelismata = ##t \mezzoLyrics }
             \new Staff
             <<
                 \set Staff.instrumentName = "Alto"
@@ -206,7 +217,7 @@ bass =  \relative {
                     \context Voice = "alto" {  \alto }
                     >>
                 >>
-            \new Lyrics \lyricsto "alto" { \altoLyrics }
+            \new Lyrics \lyricsto "alto" {\set ignoreMelismata = ##t \altoLyrics }
             \new Staff
             <<
                 \set Staff.instrumentName = "Tenor"
@@ -218,7 +229,7 @@ bass =  \relative {
                     \context Voice = "tenor" {  \tenor }
                     >>
                 >>
-            \new Lyrics \lyricsto "tenor" { \tenorLyrics }
+            \new Lyrics \lyricsto "tenor" {\set ignoreMelismata = ##t \tenorLyrics }
             \new Staff
             <<
                 \set Staff.instrumentName = "Bass"
@@ -231,10 +242,11 @@ bass =  \relative {
                     >>
                 >>
             >>
-            \new Lyrics \lyricsto "bass" { \bassLyrics }
+            \new Lyrics \lyricsto "bass" {\set ignoreMelismata = ##t \bassLyrics }
         
         >>
     \layout {
+      #(layout-set-staff-size 15)
       \context {
         \Staff \RemoveEmptyStaves
       }
