@@ -21,12 +21,12 @@ soloVerseOne = \relative a' {
 }
 
 sopranoVerseOne = \relative a' {
-  r4 a4~a4. g8~
+  r4 \pp a4~a4. g8~
   g4. fis8~fis4. e8~
   e2~e8 cis4 d8~
   d4. fis8~fis4 r4
 
-  a8 r8 a4~a4. g8~
+  a8-> r8 a4~a4. g8~
   g4. fis8~fis4. e8~
   e2~e8 cis4 d8~
   d4. fis8~fis2
@@ -38,17 +38,17 @@ sopranoVerseOne = \relative a' {
  
   a2~a4. g8~
   g4. fis8~fis4. e8~
-  e4. a8~a4. b8~
-  b4. c8~c4 r4
+  e4. a8~a4.\< b8~
+  b4. c8~c4 \! r4
 }
 
 mezzoVerseOne = \relative a' {
-  r4 cis,4~cis8 e4 d8~
+  r4 \pp cis,4~cis8 e4 d8~
   d4. d8~d4. cis8~
   cis2~cis8 a4 b8~
   b4. c8~c4 r4
 
-  e8 r8 cis4~cis8 e4 d8~
+  e8-> r8 cis4~cis8 e4 d8~
   d4. d8~d4. cis8~
   cis2~cis8 a4 b8~
   b4. c8~c2
@@ -60,8 +60,8 @@ mezzoVerseOne = \relative a' {
 
   e2~e4. d8~
   d2~d4. cis8~
-  cis4. e8~e4. g8~
-  g4. a8~a4 r4
+  cis4. e8~e4.\< g8~
+  g4. a8~a4 \! r4
 }
 
 altoVerseOne = \relative a {
@@ -70,7 +70,7 @@ altoVerseOne = \relative a {
   R
   R
   
-  cis8 r8 r2.
+  cis8-> r8 r2.
   r1
   r2 r8 a8 [a a]~
   a cis4 d8~d2
@@ -82,17 +82,17 @@ altoVerseOne = \relative a {
 
   cis2.~cis8 b8~
   b4. c8~c4. a8~
-  a4. cis8~cis4. e8~
-  e4. e8~e4 r4
+  a4. cis8~cis4.\< e8~
+  e4. e8~e4 \! r4
 }
 
 tenorVerseOne = \relative a {
-  r4 a4~a8 cis4 b8~
+  r4 \pp a4~a8 cis4 b8~
   b4. c8~c4. a8~
   a2~a8 e4 g8~
   g2. r4
 
-  a8 r8 a4~a8 cis4 b8~
+  a8-> r8 a4~a8 cis4 b8~
   b4. c8~c4. a8~
   a2~a8 e4 g8~
   g2. r4

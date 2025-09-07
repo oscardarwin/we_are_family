@@ -45,7 +45,7 @@ backingSoloBIntermission = \relative a {
 sopranoIntermission = \relative a' {
   R1*8
 
-  r8^\markup { \bold "MUTED" } a8 a16 [a8 a16] a8 [a8] r4 
+  r8^\markup { \bold "MUTED" } \pp a8 a16 [a8 a16] a8 [a8] r4 
   r8 g8 g16 [g8 g16] g8 [g8] r4 
   r8 fis8 fis16 [fis8 fis16] fis8 [fis8] r4 
   r8 f16 [f16]~ f16 [f8 f16] f8 [f8] r4 
@@ -57,14 +57,14 @@ sopranoIntermission = \relative a' {
 
   r8 a8 a16 [a8 a16] a8 [a8] r4 
   r8 g8 g16 [g8 g16] g8 [g8] r4 
-  r8 fis8 fis16 [fis8 fis16] fis8 [fis8] r4 
-  r8 g16 [g16]~ g16 [g8 g16] g8 [g g a] 
+  r8 \< fis8 fis16 [fis8 fis16] fis8 [fis8] r4 
+  r8 g16 [g16]~ g16 [g8 g16] g8 [g g a] \! 
 }
 
 mezzoIntermission = \relative a' {
   R1*8
 
-  r8 ^\markup { \bold "MUTED" }e8 e16 [e8 e16] e8 [e8] r4 
+  r8 ^\markup { \bold "MUTED" }\pp e8 e16 [e8 e16] e8 [e8] r4 
   r8 e8 e16 [e8 e16] e8 [e8] r4 
   r8 e8 e16 [e8 e16] e8 [e8] r4 
   r8 e16 [e16]~ e16 [e8 e16] e8 [e8] r4 
@@ -76,15 +76,15 @@ mezzoIntermission = \relative a' {
 
   r8 e8 e16 [e8 e16] e8 [e8] r4 
   r8 e8 e16 [e8 e16] e8 [e8] r4 
-  r8 e8 e16 [e8 e16] e8 [e8] r4 
-  r8 f16 [f16]~ f16 [f8 f16] f8 [f f e]
+  r8 \< e8 e16 [e8 e16] e8 [e8] r4 
+  r8 f16 [f16]~ f16 [f8 f16] f8 [f f e] \!
 }
 
 altoIntermission = \relative a {
   R1*7
   c4 c d c8 [a8]
 
-  r8^\markup { \bold "MUTED" } cis8 cis16 [cis8 cis16] cis8 [cis8] r4 
+  r8^\markup { \bold "MUTED" } \pp cis8 cis16 [cis8 cis16] cis8 [cis8] r4 
   r8 d8 d16 [d8 d16] d8 [d8] r4 
   r8 d8 d16 [d8 d16] d8 [d8] r4 
   r8 c16 [c16]~ c16 [c8 c16] c8 [c8] r4 
@@ -96,15 +96,15 @@ altoIntermission = \relative a {
 
   r8 cis8 cis16 [cis8 cis16] cis8 [cis8] r4 
   r8 d8 d16 [d8 d16] d8 [d8] r4 
-  r8 d8 d16 [d8 d16] d8 [d8] r4 
-  r8 c16 [c16]~ c16 [c8 c16] c8 [c c cis]
+  r8 \< d8 d16 [d8 d16] d8 [d8] r4 
+  r8 c16 [c16]~ c16 [c8 c16] c8 [c c cis]\! 
 }
 
 tenorIntermission = \relative a {
   R1*7
   g4 g g g8 [a8]
 
-  r8^\markup { \bold "MUTED" } cis8 cis16 [cis8 cis16] cis8 [cis8] r4 
+  r8^\markup { \bold "MUTED" } \pp cis8 cis16 [cis8 cis16] cis8 [cis8] r4 
   r8 b8 b16 [b8 b16] b8 [b8] r4 
   r8 a8 a16 [a8 a16] a8 [a8] r4 
   r8 a16 [a16]~ a16 [a8 a16] a8 [a8] r4 
@@ -116,8 +116,8 @@ tenorIntermission = \relative a {
 
   r8 cis8 cis16 [cis8 cis16] cis8 [cis8] r4 
   r8 b8 b16 [b8 b16] b8 [b8] r4 
-  r8 a8 a16 [a8 a16] a8 [a8] r4 
-  r8 a16 [a16]~ a16 [a8 a16] a8 [a g a] 
+  r8 \< a8 a16 [a8 a16] a8 [a8] r4 
+  r8 a16 [a16]~ a16 [a8 a16] a8 [a g a] \!
 }
 
 bassIntermission = \relative a,, {

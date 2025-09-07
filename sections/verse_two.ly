@@ -24,67 +24,67 @@ soloVerseTwo = \relative a' {
 sopranoVerseTwo = \relative a' {
   R1*4
   
-  a8 r8 r2.
+  a8-> r8 r2.
   R1*3
   
-  c8 r8 r2.
+  c8-> r8 r2.
   R1*2
-  r2. r8 e8~
+  r2. r8\pp  e8~
 
   e [e e e] e [e e e]
   e [e] r4 c8 [c d e]
   r2 a,8 [a a a]
-  a a4.~ a2
+  a a4.~\< a2
 }
 
 mezzoVerseTwo = \relative a' {
-  r4 e4~e4. g8~
+  r4 \p e4~e4. g8~
   g4. fis8~fis4. e8~
   e2. r8 cis8~
   cis4. d8~d4 r
   
   \slurUp
-  a'8 r8 a4(~a2 
+  a'8-> r8 a4(~a2 
   g2 fis4. e8~
   e1)
   r4. g8 fis8 fis4.
   \slurNeutral
 
-  g8 r8 r2.
+  g8-> r8 r2.
   r8 a a( [g)] r2
   R1*2
 
-  r8 a [a a] a [a a g]
+  r8 \pp a [a a] a [a a g]
   g [fis] r4 g8 [fis e a]
   r2 e8 [e e f]
-  f f4.~ f2
+  f f4.~\< f2
 }
 
 altoVerseTwo = \relative a {
   R1*2
-  r2 r8 a [a a]~
+  r2 r8 a \mp [a a]~
   a fis'4 e8~e2
   
-  e8 r8 r2.
+  e8-> r8 r2.
   R1
   r2 r8 a, [b c]
   b b4.~b2
   
-  cis?8 r8 r2.
+  cis?8-> r8 r2.
   R1*3
 
-  r8 e [e e] e [e e d]
+  r8 \pp e [e e] e [e e d]
   d [c] r4 e8 [d c a]
   r2 cis8 [cis cis cis]
-  c c4.~ c2
+  c c4.~\< c2
 }
 
 tenorVerseTwo = \relative a {
   R1*2
-  r2 r8 a [a a]~
+  r2 r8 \mp a [a a]~
   a cis4 d8~d2
   
-  cis8 r8 r2.
+  cis8-> r8 r2.
   R1
   r2 r8 a [a a]
   g g4.~g2
@@ -94,10 +94,10 @@ tenorVerseTwo = \relative a {
   fis4) r4 r8 a [b c]
   b b4 \grace { c16 [b] } a8~a4 r4
   
-  r8 cis [cis cis] cis [cis cis a]
+  r8 \pp cis [cis cis] cis [cis cis a]
   a [a] r4 a8 [a b c]
   r2 a8 [a a a]
-  gis? gis4.~ gis2
+  gis? gis4.~\< gis2
 }
 
 bassVerseTwo = \relative a, {

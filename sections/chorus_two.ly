@@ -10,7 +10,7 @@ soloChorusTwo = \relative a' {
 }
 
 sopranoChorusTwo = \relative a' {
-  a4 g g g8 [a8]
+  a4 \! g g g8 [a8]
   R1
   g8 [g g g] g [g g a]
   R1
@@ -22,7 +22,7 @@ sopranoChorusTwo = \relative a' {
 }
 
 mezzoChorusTwo = \relative a' {
-  e4 g g g8 [a8]
+  e4 \! g g g8 [a8]
   R1
   g8 [g g g] g [g g a]
   R1
@@ -34,7 +34,7 @@ mezzoChorusTwo = \relative a' {
 }
 
 altoChorusTwo = \relative a {
-  cis4 cis d d8 [b8]
+  cis4 \! cis d d8 [b8]
   R1
   d8 [d d e] f [e d f]
   R1
@@ -46,7 +46,7 @@ altoChorusTwo = \relative a {
 }
 
 tenorChorusTwo = \relative a {
-  a4 a a cis8 [d8]
+  a4 \! a a cis8 [d8]
   R1
   a8 [a a a] a [a b c]
   R1

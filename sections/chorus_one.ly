@@ -16,7 +16,7 @@ backingSoloAChorusOne = \relative a' {
 }
 
 sopranoChorusOne = \relative a' {
-  a4 g g g8 [a8]
+  a4 \mf g g g8 [a8]
   R1
   g8 [g g g] g [g g a]
   R1
@@ -28,7 +28,7 @@ sopranoChorusOne = \relative a' {
 }
 
 mezzoChorusOne = \relative a' {
-  a4 g g g8 [a8]
+  a4 \mf g g g8 [a8]
   R1
   g8 [g g g] g [g g a]
   R1
@@ -40,7 +40,7 @@ mezzoChorusOne = \relative a' {
 }
 
 altoChorusOne = \relative a' {
-  e4 e d d8 [b8]
+  e4 \mf  e d d8 [b8]
   R1
   d8 [d d e] f [e d f]
   R1
@@ -52,7 +52,7 @@ altoChorusOne = \relative a' {
 }
 
 tenorChorusOne = \relative a {
-  cis4 cis a cis8 [d8]
+  cis4 \mf  cis a cis8 [d8]
   R1
   a8 [a a a] a [a b c]
   R1
